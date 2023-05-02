@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Tarea bootstrap</title>
+
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid ">
+          <a class="navbar-brand text-white" href="#">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+               <a class="nav-link active text-white" aria-current="page" href="#"><i class="bi bi-house-door logo-home"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white logo-features" href="#"><i class="bi bi-folder"></i>Features</a>
+              </li>
+              
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-white logo-about"><i class="bi bi-person-circle"></i>About</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide carousel-media">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/img/woman-camera.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/working.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/stage.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section class="mx-5">
+            <h3>Free Courses</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem debitis accusamus reprehenderit, dolorem officia eos architecto nulla eveniet ea quidem esse, sequi minima facilis ex molestiae asperiores sed laboriosam voluptates?</p>
+        </section>
+        
+        <section class="row mx-4 mt-5">
+        
+        <div class="card col mx-4" style="width: 18rem;">
+            <img src="./assets/img/chalkboard.jpg" class="card-img-top" class="w-100">
+            <div class="card-body">
+              <h5 class="card-title">Strategies & planning</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>  
+            
+        </div>
+        <div class="card col mx-4" style="width: 18rem;">
+            <img src="./assets/img/working.jpg" class="card-img-top" class="w-100 img-fluid">
+            <div class="card-body">
+              <h5 class="card-title">Creative and Design</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>  
+            
+        </div>
+        <div class="card col mx-4" style="width: 18rem;">
+            <img src="./assets/img/programming.jpg" class="card-img-top" class=" w-100">
+            <div class="card-body">
+              <h5 class="card-title">Programming</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>  
+            
+        </div>
+
+        </section>
+    </main>
+    <footer class="mt-4">
+        <div class="card text-bg-dark mb-3 opacity-75 mx-5 my-5 footercard" style="max-width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">About me</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias excepturi corrupti delectus consequatur vero aliquam provident, repellendus obcaecati dolorem tempora quos sint voluptatibus distinctio voluptate velit amet consectetur minus soluta?</p>
+          
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe veniam nemo deleniti! Veritatis quidem dolorum modi optio. Sit odit, explicabo libero ad beatae, ipsam corrupti culpa quod expedita quam modi!</p>
+
+              <h5 class="fw-bold">Follow me on the web</h5>
+              <button type="button" class="btn btn-outline-secondary">Twitter</button>
+              <button type="button" class="btn btn-outline-secondary">Facebook</button>
+              <button type="button" class="btn btn-outline-secondary">Youtube</button>
+
+            </div>
+         </div>
+
+    </footer>
+    
+</body>
+</html>

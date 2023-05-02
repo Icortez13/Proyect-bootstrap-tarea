@@ -1,0 +1,41 @@
+
+.logo-home{
+    margin: auto;
+}
+.logo-features{
+   margin: auto;
+}
+.logo-about{
+   margin: auto;
+}
+
+
+footer{
+    background-image: url(../img/stage.jpg);
+    background-size: cover;
+    padding-left: 3.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+
+    
+}
+
+.footercard{
+    text-align: left;
+    padding: auto;
+   height: 125px;
+
+}
+
+
+@media (max-width:768px){
+    .carousel-media{
+       display: inline-block; 
+       
+
+        
+        
+       
+
+    }
+}
